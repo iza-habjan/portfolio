@@ -1,3 +1,76 @@
+body {
+  background-color: #fffbf6;
+}
+
 h1 {
-  font-size: 42px;
+  font-size: 60px;
+  font-family: "Bitter", serif;
+}
+
+.navbar {
+  background-color: #ffedd4;
+  padding: 12px 0 12px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #7a77aa;
+}
+
+.navbar-light .navbar-brand {
+  color: #7a77aa;
+  padding-left: 50px;
+}
+
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show .nav-link {
+  color: #7a77aa;
+  font-weight: 700;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  font-weight: 700;
+  color: #7a77aa;
+}
+
+.navbar-light .navbar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #7a77aa;
+}
+
+.navbar-description {
+  background: #fdf8fc;
+  font-size: 30px;
+  padding: 15px;
+  animation: moveLeft 50s linear infinite;
+  animation-iteration-count: infinite;
+
+  color: #b763c6;
+}
+
+.navbar-nav .nav-divide {
+  padding: 0 10px 0 10px;
+}
+
+.divider {
+  color: #fc346a;
+}
+
+.representation {
+  text-align: center;
+  color: #606cc3;
+}
+
+@keyframes moveLeft {
+  0% {
+    transform: none;
+  }
+
+  50% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: none;
+  }
 }
