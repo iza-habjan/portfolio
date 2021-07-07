@@ -72,6 +72,8 @@ footer {
   font-size: 30px;
   padding: 15px 20px 15px 20px;
   color: #b763c6;
+  font-size: 23px;
+  font-family: "Montserrat", sans-serif;
 }
 
 .ticker {
@@ -105,6 +107,12 @@ footer {
 #portrait {
   max-width: 300px;
   align-items: center;
+}
+
+#flow {
+  max-width: 600px;
+  align-items: center;
+  padding-top: 65px;
 }
 
 @keyframes moveLeft {
