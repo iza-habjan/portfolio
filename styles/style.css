@@ -123,6 +123,10 @@ footer {
   font-weight: bolder;
 }
 
+.open-source:visited {
+  color: #b763c6;
+}
+
 /* .dot {
   height: 300px;
   width: 300px;
@@ -141,6 +145,7 @@ footer {
   align-items: center;
   padding-top: 65px;
   padding-bottom: 40px;
+  max-width: 100%;
 }
 
 @keyframes moveLeft {
@@ -151,4 +156,33 @@ footer {
   100% {
     transform: translate3d(-108rem, 0, 0);
   }
+}
+
+/* about section */
+
+.about-me {
+  padding: 30px 20px 20px 20px;
+  text-align: center;
+  font-family: var(--main-font);
+  font-weight: 600;
+  line-height: 2;
+}
+
+#heading-about {
+  font-size: 30px;
+  line-height: 1.5;
+
+  writing-mode: vertical-lr;
+  text-orientation: upright;
+  padding: 0;
+}
+
+#name-about {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+#hobbies {
+  writing-mode: vertical-lr;
+  text-orientation: upright;
 }
