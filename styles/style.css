@@ -224,3 +224,31 @@ video {
   padding: 40px;
   font-size: 50px;
 }
+
+/* conntact section */
+
+.greeting {
+  font-size: 35px;
+  padding: 20px;
+}
+
+.contact {
+  background: var(--tertiary-color);
+  border-radius: 4px;
+  color: #fdf8fc;
+  font-size: 18px;
+  padding: 10px 15px;
+}
+
+.contact:hover {
+  background: var(--secondary-color);
+  color: #fdf8fc;
+}
+
+.mail-to {
+  padding: 20px;
+}
+
+#mail {
+  padding: 80px;
+}
