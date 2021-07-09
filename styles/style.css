@@ -1,6 +1,8 @@
 :root {
   --background-color: #fffbf6;
+  --ticker-background: #fdf8fc;
   --navbar-color: #ffedd4;
+  --main-color: #606cc3;
   --primary-color: #7a77aa;
   --secondary-color: #b763c6;
   --tertiary-color: #fc346a;
@@ -36,6 +38,7 @@ footer {
   color: var(--primary-color);
 }
 
+/*
 .navbar {
   background-color: var(--navbar-color);
   padding: 5px 0 5px 0;
@@ -77,12 +80,12 @@ footer {
 .navbar-light .navbar-nav .show > .nav-link {
   font-weight: 700;
   color: var(--primary-color);
-}
+} */
 
 /* ticker annimation */
 
-.ticker-background {
-  background: #fdf8fc;
+#ticker-background {
+  background: var(--ticker-background);
 }
 
 .ticker-items {
@@ -110,7 +113,7 @@ footer {
 
 .representation {
   text-align: center;
-  color: #606cc3;
+  color: var(--main-color);
 }
 
 .footer-img {
@@ -208,14 +211,14 @@ video {
 .btn-branding {
   background: var(--secondary-color);
   border-radius: 4px;
-  color: #fdf8fc;
+  color: var(--ticker-background);
   font-size: 18px;
   padding: 10px 15px;
 }
 
 .btn-branding:hover {
   background: var(--tertiary-color);
-  color: #fdf8fc;
+  color: var(--ticker-background);
 }
 
 .more-soon {
@@ -235,14 +238,14 @@ video {
 .contact {
   background: var(--tertiary-color);
   border-radius: 4px;
-  color: #fdf8fc;
+  color: var(--ticker-background);
   font-size: 18px;
   padding: 10px 15px;
 }
 
 .contact:hover {
   background: var(--secondary-color);
-  color: #fdf8fc;
+  color: var(--ticker-background);
 }
 
 .mail-to {
@@ -251,4 +254,44 @@ video {
 
 #mail {
   padding: 80px;
+}
+
+/* navbar */
+
+#logo {
+  max-width: 50px;
+  margin: 0;
+  padding: 15px 0;
+}
+
+nav {
+  padding: 15px 0;
+}
+
+#nav-background {
+  background-color: var(--navbar-color);
+}
+
+ul {
+  margin: 0;
+  padding: 0 60px 0 0;
+}
+
+nav li {
+  list-style: none;
+  display: inline;
+  padding: 0 5px;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: var(--header-font);
+  font-size: 18px;
+  color: var(--primary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav a:hover,
+nav.li a.active {
+  color: var(--secondary-color);
 }
