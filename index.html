@@ -4,10 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>
-      <img src="/media/skirt-icon.png" alt="Skirt"> Iza Habjan Portfolio - Home
-      page
-    </title>
+    <title>Iza Habjan Portfolio - Home page</title>
     <meta
       name="description"
       content="Iza Habjan Portfolio - Frontend developer based in Berlin; About, Frontend projects, Skills, Development approach, Contact, Photography, Blog"
@@ -44,6 +41,11 @@
       rel="stylesheet"
     />
 
+    <script
+      src="https://kit.fontawesome.com/2c388a13bc.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
 
@@ -51,11 +53,15 @@
     <header>
       <div id="nav-background">
         <nav class="d-flex justify-content-end">
-          <img src="/media/hI.png" alt="Iza Habjan logo" id="logo" />
+          <a href="/" title="Iza Habjan - homepage" class="active">
+            <img
+              src="/media/hI.png"
+              alt="Iza Habjan logo"
+              class="d-block"
+              id="logo"
+            />
+          </a>
           <ul>
-            <li>
-              <a class="active" title="Iza Habjan - homepage" href="/">IH</a>
-            </li>
             <li>
               <a title="About Iza Habjan" href="/about.html">About</a>
             </li>
@@ -282,8 +288,8 @@
           href="https://github.com/iza-habjan/portfolio"
           title="Open source on GitHub"
           target="_blank"
-          >GitHub</a
-        >
+          ><i class="fab fa-github"></i
+        ></a>
       </div>
     </footer>
   </body>
