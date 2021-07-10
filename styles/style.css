@@ -140,14 +140,17 @@ nav a:hover,
 #flow {
   width: 600px;
   align-items: center;
-  padding-top: 65px;
-  padding-bottom: 40px;
+  padding-top: 65px 0 40px 0;
   max-width: 100%;
 }
 
 @media (max-width: 576px) {
   h1 {
     font-size: 30px;
+    padding: 10px 0;
+  }
+
+  #flow {
     padding: 10px 0;
   }
 }
