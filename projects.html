@@ -41,86 +41,50 @@
       rel="stylesheet"
     />
 
+    <script
+      src="https://kit.fontawesome.com/2c388a13bc.js"
+      crossorigin="anonymous"
+    ></script>
+
     <link rel="stylesheet" href="/styles/style.css" />
   </head>
   <body>
     <header>
-      <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" title="Iza Habjan - homepage" href="/">IH</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-            <div class="navbar-items">
-              <ul class="navbar-nav me-2">
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    title="About Iza Habjan"
-                    aria-current="page"
-                    href="/about.html"
-                    >About</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link active"
-                    title="Frontend portfolio"
-                    href="/projects.html"
-                    >Frontend Projects</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" title="Skills acquire" href="/skills.html"
-                    >Skills</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    title="Work approach"
-                    href="/approach.html"
-                    >Development Approach</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    title="Contact information"
-                    href="/contact.html"
-                    >Contact</a
-                  >
-                </li>
-                <li class="nav-item">
-                  <a
-                    class="nav-link"
-                    title="Photoggraphy portfolio"
-                    href="/photography.html"
-                    >Photography</a
-                  >
-                </li>
-                <li class="nav-item mr-3">
-                  <a class="nav-link" title="Blog posts" href="/blog.html"
-                    >Blog</a
-                  >
-                </li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </nav>
+      <div id="nav-background">
+        <nav class="d-flex">
+          <a href="/" title="Iza Habjan - homepage" class="active">
+            <img
+              src="/media/logo.png"
+              alt="Iza Habjan logo"
+              class="d-block"
+              id="logo"
+            />
+          </a>
+          <ul class="nav-ul">
+            <li>
+              <a title="About Iza Habjan" href="/about.html">About</a>
+            </li>
+            <li>
+              <a title="Frontend portfolio" href="/projects.html"
+                >Frontend Projects</a
+              >
+            </li>
+            <li>
+              <a title="Photography portfolio" href="/photography.html"
+                >Photography</a
+              >
+            </li>
+            <li>
+              <a title="Skills acquired" href="/skills.html">Skills</a>
+            </li>
+            <li>
+              <a title="Contact information" href="/contact.html">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
 
-      <div class="ticker-background">
+      <div id="ticker-background">
         <div class="flex ticker">
           <ul class="ticker-items">
             <li>
@@ -234,19 +198,19 @@
         </div>
       </div>
     </main>
+
     <footer>
       <div>
         Mischievously
         <img src="/media/penguin.png" alt="Penguin" class="footer-img" />
         Created by Iza Habjan
-        <img src="/media/skirt-icon.png" alt="Skirt" class="footer-img" />
         <a
-          class="open-source"
+          class="github"
           href="https://github.com/iza-habjan/portfolio"
           title="Open source on GitHub"
           target="_blank"
-          >GitHub</a
-        >
+          ><i class="fab fa-github"></i
+        ></a>
       </div>
     </footer>
   </body>
