@@ -189,7 +189,6 @@ nav a:hover,
 video {
   border-radius: 12px;
   max-width: 300px;
-  object-fit: cover;
 }
 
 .heading {
