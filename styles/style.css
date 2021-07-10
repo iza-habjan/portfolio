@@ -184,11 +184,12 @@ nav a:hover,
   text-orientation: mixed;
 }
 
-/* projects section */
+/* projects */
 
 video {
   border-radius: 12px;
   max-width: 300px;
+  object-fit: cover;
 }
 
 .heading {
