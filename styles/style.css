@@ -12,16 +12,10 @@
 }
 
 body {
-  display: flex;
-  flex-direction: column;
   background-color: var(--background-color);
-  height: 100vh;
-  overflow: hidden;
 }
 
 main {
-  height: 100%;
-  overflow-y: auto;
   display: flex;
   justify-content: space-evenly;
 }
@@ -90,6 +84,10 @@ nav a:hover,
 
 /* ticker */
 
+header {
+  overflow: hidden;
+}
+
 #ticker-background {
   background: var(--ticker-background);
 }
@@ -142,17 +140,6 @@ nav a:hover,
   align-items: center;
   padding: 65px 0 40px 0;
   max-width: 100%;
-}
-
-@media (max-width: 576px) {
-  h1 {
-    font-size: 30px;
-    padding: 10px 0;
-  }
-
-  #flow {
-    padding: 10px 0;
-  }
 }
 
 /* about */
@@ -274,4 +261,43 @@ footer {
 
 .github:visited {
   color: var(--secondary-color);
+}
+
+/* media */
+
+@media (min-width: 577px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+
+  main {
+    height: 100%;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 30px;
+    padding: 10px 0;
+  }
+
+  #mail {
+    font-size: 25px;
+    padding: 12px 0;
+  }
+
+  .greeting {
+    padding: 12px 0;
+  }
+
+  .contact {
+  }
+
+  #flow {
+    padding: 10px 0;
+  }
 }
