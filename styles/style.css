@@ -140,7 +140,7 @@ nav a:hover,
 #flow {
   width: 600px;
   align-items: center;
-  padding-top: 65px 0 40px 0;
+  padding: 65px 0 40px 0;
   max-width: 100%;
 }
 
