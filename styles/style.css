@@ -111,12 +111,7 @@ nav a:hover,
   padding-top: 4rem;
 }
 
-#ham,
-#menu {
-  display: none;
-}
-
-.showNav {
+.showMenu {
   transform: translateY(0);
 }
 
@@ -315,6 +310,11 @@ footer {
     height: 100%;
     overflow-y: auto;
   }
+
+  #ham,
+  #menu {
+    display: none;
+  }
 }
 
 @media (max-width: 576px) {
@@ -332,10 +332,11 @@ footer {
     padding: 12px 0;
   }
 
-  .contact {
-  }
-
   #flow {
     padding: 10px 0;
+  }
+
+  .nav-ul {
+    display: none;
   }
 }

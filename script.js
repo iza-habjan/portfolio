@@ -2,7 +2,6 @@ var menu = document.querySelector("#menu");
 var ham = document.querySelector("#ham");
 var closeIcon = document.querySelector(".closeIcon");
 var menuIcon = document.querySelector(".menuIcon");
-
 var menuLinks = document.querySelectorAll(".menuLink");
 
 function toggleMenu() {
