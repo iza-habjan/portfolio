@@ -12,12 +12,9 @@ function toggleMenu() {
   } else {
     menu.classList.add("showMenu");
     closeIcon.style.display = "block";
-    menuIcon.style.remove = "none";
+    menuIcon.style.display = "none";
   }
 }
 
-menuLinks.forEach(function (menuLink) {
-  menuLink.addEventListener("click, toggleMenu");
-});
-
 ham.addEventListener("click", toggleMenu);
+closeIcon.style.display = "none";
